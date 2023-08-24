@@ -1,0 +1,16 @@
+{
+	"type": "MOD",
+	"title": "Screwhand",
+	"name": "screwhand",
+	"short_description": "Incorporates a screwdriver into the player hand",
+	"dev_state": "BETA",
+	"tags": [],
+	"content_warnings": [],
+	"license": "LGPL-2.1-only",
+	"media_license": "CC-BY-4.0",
+	"long_description": null,
+	"repo": "https://github.com/tacotexmex/screwhand",
+	"website": null,
+	"issue_tracker": "https://github.com/tacotexmex/screwhand/issues",
+	"forums": null
+}
