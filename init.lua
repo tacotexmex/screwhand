@@ -13,7 +13,6 @@ minetest.register_on_punchnode(function(pos, node, puncher, pointed_thing)
 			local key = puncher:get_player_control()
             if key.left and key.right then
                 screwdriver.use(itemstack, puncher, pointed_thing, false)
-                return false
             end
 		end
 	end
