@@ -9,7 +9,8 @@ minetest.override_item("screwdriver2:screwdriver", {
 
 minetest.register_on_punchnode(function(pos, node, puncher, pointed_thing)
 	if puncher and puncher:is_player() then
-		if puncher:get_wielded_item():get_name() == "" then
+		local itemstack = puncher:get_wielded_item()
+		if itemstack:get_name() == "" then
 			local key = puncher:get_player_control()
             if key.left and key.right then
                 screwdriver.use(itemstack, puncher, pointed_thing, false)
